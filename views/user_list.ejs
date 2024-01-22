@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User List</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>User List</h1>
+    <ul>
+      <% user_list.forEach(function(user) { %>
+        <li><%= user.user_name %></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
